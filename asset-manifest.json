@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/quiz-app/static/css/main.cb1af3bc.css",
+    "main.js": "/quiz-app/static/js/main.b5f331a5.js",
+    "index.html": "/quiz-app/index.html",
+    "main.cb1af3bc.css.map": "/quiz-app/static/css/main.cb1af3bc.css.map",
+    "main.b5f331a5.js.map": "/quiz-app/static/js/main.b5f331a5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cb1af3bc.css",
+    "static/js/main.b5f331a5.js"
+  ]
+}
