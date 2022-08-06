@@ -20,7 +20,7 @@ export default function Quiz(props) {
                     setTimeout(() => {
                         setAllQuiz(data.results)
                         setIsLoading(false)
-                    }, 500); 
+                    }, 700); 
                 }
             )   
     
