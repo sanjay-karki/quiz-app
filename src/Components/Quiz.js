@@ -20,7 +20,7 @@ export default function Quiz(props) {
                     setTimeout(() => {
                         setAllQuiz(data.results)
                         setIsLoading(false)
-                    }, 600); 
+                    }, 700); 
                 }
             )   
     
@@ -74,6 +74,17 @@ export default function Quiz(props) {
 
     />)
 
+    
+    function countCorrect() {
+        var tempCount = 0;
+        for (let i=0; i<questionsArray.length; i++) {
+            if (allAnswered && (questionsArray[i].selectedAnswer === questionsArray[i].correct_answer)){
+                tempCount++;
+            }  
+        }
+        return tempCount
+    }
+
     return (
         <>
         {isLoading ? <LoadingSpinner /> : 
@@ -81,6 +92,7 @@ export default function Quiz(props) {
         <h1 className="app--title">Quiz App</h1>
         {quizQuestion}
         <div className="submit--container">
+            {quizOver && (<div className="correct--count">You got {countCorrect()} correct answer{((countCorrect())>1 || (countCorrect())===0) ? "s!" : "!"}</div>)}
             <button className={`submit--btn ${allAnswered ? "submit--btn" : "submit--btn--disabled"}`} onClick={quizOver ? resetQuiz : checkAnswer }>
                 {quizOver ? "Play Again" : "Check Answers"}    
             </button> 
