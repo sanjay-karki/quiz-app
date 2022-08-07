@@ -108,7 +108,7 @@ body {
 
 .dispQuiz > h3 {
     font-weight: 700;
-    font-size: 1rem;
+    font-size: 1.1rem;
     padding-bottom: 10px;
     display: flex;
     flex-wrap: wrap;
@@ -125,7 +125,7 @@ body {
     padding: 5px 10px;
     border-radius: 10px;
     border: none;
-    font-size: 0.9rem;
+    font-size: 1rem;
     background: #e6f8f5;
     color: #0b8888;
     font-weight: 400;
