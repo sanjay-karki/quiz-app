@@ -117,6 +117,10 @@ body {
     flex-wrap: wrap;
 }
 
+.hr-style {
+    border: 1px solid rgba(230, 248, 245, 0.3);
+}
+
 .ans--btn {
     padding: 9px 10px;
     border-radius: 10px;
@@ -218,24 +222,24 @@ footer {
     } 
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 720px) {
 	.quiz--container, .header--container {
-		max-width: 400px;
-        padding: 20px;
-	}
-    .app--title {
-        font-size: 3.2rem;
-        margin-bottom: 20px;
-    }
-}
-
-@media screen and (max-width: 500px) {
-	.quiz--container, .header--container {
-		max-width: 350px;
+		max-width: 600px;
         padding: 20px;
 	}
     .app--title {
         font-size: 3.2rem;
         margin-bottom: 30px;
     }
+}
+
+@media screen and (max-width: 540px) {
+	.quiz--container, .header--container {
+		max-width: 350px;
+	}
+}
+@media screen and (max-width: 280px) {
+	.quiz--container, .header--container {
+		max-width: 275px;
+	}
 }

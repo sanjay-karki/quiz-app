@@ -47,7 +47,9 @@ export default function Display(props) {
             <div className="ans--btn--container">
                 {sortedAnswerElements}
             </div>
-            
+            <br/>
+            <br/>
+            <hr className="hr-style"/>
         </div>
         
     )
