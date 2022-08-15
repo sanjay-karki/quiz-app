@@ -11,6 +11,7 @@ body {
     align-items: center;
     margin: 40px 0 5px;
     background: lightcyan;
+    height: 95vh;
 }
 
 .header--container {
@@ -89,7 +90,7 @@ body {
     background-color: #00b6b6;
     max-width: 700px;
     border-radius: 10px;
-    padding: 40px 40px;
+    padding: 40px;
     color: white;
     margin-bottom: 25px;
     display: flex;
@@ -225,7 +226,7 @@ footer {
 @media screen and (max-width: 720px) {
 	.quiz--container, .header--container {
 		max-width: 600px;
-        padding: 20px;
+        padding: 40px;
 	}
     .app--title {
         font-size: 3.2rem;
