@@ -1,6 +1,5 @@
 # :open_book: Quiz
-**A simple quiz app**
-
+**Live Demo:**
 https://sanjay-karki.github.io/quiz-app/
 
 <p align="center" width="100%">
