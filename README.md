@@ -8,7 +8,7 @@ https://sanjay-karki.github.io/quiz-app/
 </p>
 
 ## :page_with_curl:	Description
-**_The application fetches general knowledge questions randomly from [Open Trivia Database](https://opentdb.com/). 
+**_The application fetches general knowledge questions randomly from [Open Trivia Database API](https://opentdb.com/). 
 Five questions are loaded at a time and each of the question is of multiple-choice format._**
 
 
